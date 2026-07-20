@@ -3,28 +3,28 @@
 class Ugpibd < Formula
   desc "Userspace daemon for USB-GPIB adapters (Prologix + HiSLIP TCP front-ends)"
   homepage "https://github.com/berg/ugpibd"
-  version "0.1.0"
+  version "0.2.0"
   license "GPL-3.0-or-later"
 
   on_macos do
     on_intel do
-      url "https://github.com/berg/ugpibd/releases/download/v0.1.0/ugpibd-v0.1.0-x86_64-apple-darwin.tar.gz"
-      sha256 "6849dc1c299e99bd0472e54b410037c8ec2fb02ea3f1abb164d5659dc928dae8"
+      url "https://github.com/berg/ugpibd/releases/download/v0.2.0/ugpibd-v0.2.0-x86_64-apple-darwin.tar.gz"
+      sha256 "c842b00fe31b81a677128d84f6e7a31843b8eea3528a626aff42a7f70e1ce43b"
     end
     on_arm do
-      url "https://github.com/berg/ugpibd/releases/download/v0.1.0/ugpibd-v0.1.0-aarch64-apple-darwin.tar.gz"
-      sha256 "f6f01d3ce7aadc9dea6648f6f0e35d6e3641f850788a9ba3f2004c08ae51c1df"
+      url "https://github.com/berg/ugpibd/releases/download/v0.2.0/ugpibd-v0.2.0-aarch64-apple-darwin.tar.gz"
+      sha256 "847eb862c9b362b59b89fb0b79e33cb9bf4e134ebc813d37cc367c8a685b816d"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/berg/ugpibd/releases/download/v0.1.0/ugpibd-v0.1.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "609501cc418bea210352ae29406ffc29371a72981c427e9461b820e2e12e138b"
+      url "https://github.com/berg/ugpibd/releases/download/v0.2.0/ugpibd-v0.2.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "f3803eb355c900c0222a99be8da79d7470e9fd74f40615402c685b308699e593"
     end
     on_arm do
-      url "https://github.com/berg/ugpibd/releases/download/v0.1.0/ugpibd-v0.1.0-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "3c1c3ea071e291cc23c0d801af3ed1cc914b40c4f0ebccf8d99b6d7492f5eb2d"
+      url "https://github.com/berg/ugpibd/releases/download/v0.2.0/ugpibd-v0.2.0-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "21ceacbc29274319287cb00219760f98c07a41b1694f037287d6f6b084e4df18"
     end
   end
 
